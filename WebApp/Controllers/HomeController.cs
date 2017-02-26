@@ -14,5 +14,10 @@ namespace WebApp.Controllers
 
             return View();
         }
+        public ActionResult Details(int Id)
+        {
+
+            return View("Details");
+        }
     }
 }
